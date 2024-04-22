@@ -1,0 +1,46 @@
+
+
+body{
+background-image: url(Assets/hidden-leaf.png), url(Assets/akatsuki_3.png);
+    background-position:right top, left top;
+    background-repeat: no-repeat,no-repeat;
+    background-size: 7%,10%;
+    font-size: 1.6rem;
+    
+}
+
+
+h1,h2{
+    text-align: center;
+    text-decoration: solid;
+    text-decoration-line: underline;
+}
+
+h5{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+fieldset{
+    /*Try to align items at center*/
+    background-color:rgb(230, 219, 231)
+}
+
+.Titles{
+    font-weight: bold;
+}
+
+video{
+    
+}
+
+iframe{
+width: 80%;
+height: 680px;
+    
+}
+
+#quotes{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
