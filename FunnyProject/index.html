@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+        
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                
+                <h1 class = "header_text">Teacher: Did you do your homework?</h1><br>
+                <h1 style="color: white;">Student:</h1>
+            </div>
+            <div class="gif_container">
+                <img src="Assets/Thinking.gif" alt="Calculating 100 moves" height="200px" width=auto>
+            </div>
+            <div class = "buttons">
+                <br><br><br><button class="btn" id = "yesButButton" onclick="nextPage()">Yes but forgot at home...</button>
+                <button class="btn" id="noButton" onmouseover="moveButton1()" onclick="moveButton1()">No</button>
+                <button class="btn" id="yesButton" onmouseover="moveButton2()" onclick="moveButton2()">Yes</button>
+                
+                
+                <script>
+                    function nextPage() {
+                        window.location.href = "yes.html";
+                    }
+                    
+                    function moveButton1() {
+                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+                        document.getElementById('noButton').style.left = `${x}px`;
+                        document.getElementById('noButton').style.top = `${y}px`;
+                    }
+
+                    function moveButton2() {
+                        var x = Math.random() * (window.innerWidth - document.getElementById('yesButton').offsetWidth) - 85;
+                        var y = Math.random() * (window.innerHeight - document.getElementById('yesButton').offsetHeight) - 48;
+                        document.getElementById('yesButton').style.left = `${x}px`;
+                        document.getElementById('yesButton').style.top = `${y}px`;
+                    }
+                </script> 
+            </div>
+        </div>
+       
+    </body> 
+</html>
