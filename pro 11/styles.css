@@ -1,0 +1,189 @@
+/* lets make some default things */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Shade&family=Limelight&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Monoton&family=Rubik+Doodle+Shadow&family=Rye&family=Sevillana&family=Yatra+One&display=swap');
+
+.yatra-one-regular {
+    font-family: "Yatra One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .rye-regular {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .rubik-doodle-shadow-regular {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .monoton-regular {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .lobster-two-regular {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lobster-two-bold {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lobster-two-regular-italic {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lobster-two-bold-italic {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .limelight-regular {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .bungee-shade-regular {
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+                    /*Fonts end  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* lets define primart secondary and tertary colors */
+
+:root{
+  /* For white mode */
+  --primary-accent-color: rgb(251, 136, 240);
+  --secondary-accent-color: rgb(255, 219, 56);
+  --primary-color: rgb(244, 242, 242); 
+  --secondary-color:rgb(56, 56, 56);
+  --tertary-color: rgb(30, 169, 255);
+
+
+   /* For Dark mode */
+   --Dprimary-accent-color: rgb(251, 136, 240);
+  --Dsecondary-accent-color: rgb(235, 201, 53);
+  /* --Dprimary-color: rgb(56, 56, 56); */
+ 
+  --Dprimary-color: #000000a7;
+
+  --Dsecondary-color:rgb(244, 242, 242); 
+  --Dtertary-color: rgb(65, 182, 255);
+}
+
+
+
+.container{
+   min-height: 100vh;
+   
+    border-top: 10px solid var(--Dsecondary-accent-color);
+    border-bottom: 10px solid var(--Dsecondary-accent-color);
+    background-image: url('./Assets/images/bg-repeat1.png');
+    background-attachment: fixed;
+}
+
+.content{
+ 
+  border: 0 5px 0 5px;
+  border-style: solid ;
+  border-color: var(--Dsecondary-accent-color);
+    margin: 0 auto;
+    max-width: 900px;
+    color: var(--Dsecondary-color);
+    background-color: var(--Dprimary-color);
+    padding: 0 12px;
+    
+}
+
+br{
+  background-color: var(--Dtertary-color);
+}
+
+p{
+  text-align: left;
+  font-size: 22px;
+  font-family:"Sevillana";
+}
+
+
+/* top-section */
+
+.top-section{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 10px 0;
+}
+    
+
+.img-container {
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.img-container, img{
+  border: 2px solid var(--secondary-accent-color);
+    width: 200px;
+    height: 255px;
+   }
+
+
+   .top-section h1{
+    text-transform: uppercase;
+    color: var(--Dprimary-accent-color);
+    font-size: 50px;
+    font-family: "Limelight";
+    font-weight:200;
+}
+
+.top-section h4{
+  font-family: "Limelight";
+    font-style:oblique;
+    color: var(--Dtertary-color);
+    text-align: end;
+    font-size: larger;
+}
+
+
+/* --eof top-section */
+
+/* --sof about-section */
+
+.about-section{
+margin: 50px 0;
+}
+
+.about-section h1{
+    text-align: left;
+    font-size: 30px;
+    color: var(--Dprimary-accent-color);
+    font-family:Bungee Shade;
+}
+
+
