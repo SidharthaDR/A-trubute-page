@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/index_style.css">
+</head>
+
+<body>
+    <!-- Navigation, hero section, project display, contact section and footer -->
+
+
+
+    <nav class="nav-bar">
+        <div class="main-nav flex">
+            <div class="nav-logo">
+                <span>SIDx</span><span>DR</span>
+            </div>
+
+            <div class="nav-links flex">
+                <div class="nav-buttons about-button"><a href="#about"><button>About</button></a></div>
+                <div class="nav-buttons projects-button"><a href="#projects"><button>Projects</button></a></div>
+                <div class="nav-buttons contact-button"> <a href="#contact"><button>Contact me</button></a></div>
+            </div>
+
+        </div>
+    </nav>
+
+   
+    <div class="hnav" id="about"></div><br>
+    <section class="hero-section container">
+        <!-- heading, description and an image -->
+        <h1>I'm a Full Stack Developer</h1>
+
+        <div class="hero-content flex">
+
+            <div class="hero-about">
+                <p><span class="ffw">As a passionate Full Stack Developer,</span> I bridge the gap between the front-end and
+                    back-end to craft seamless digital experiences. With a keen eye for design and a knack for
+                    problem-solving, I specialize in bringing ideas to life through clean, efficient code.</p>
+
+
+                <h2>Why Work With Me:</h2>
+                <div class="list">
+                    <ul>
+                        <li> Passion for Innovation: I'm not just a developer; I'm a problem-solver and a creative
+                            thinker. I love tackling new challenges and leveraging cutting-edge technologies to push
+                            boundaries. </li>
+
+                        <li>Commitment to Quality: With a meticulous attention to detail and a commitment to best
+                            practices, I ensure that every line of code I write meets the highest standards of quality
+                            and performance.</li>
+
+                        <li>Collaborative Spirit: I thrive in collaborative environments, working closely with
+                            designers, product managers, and fellow developers to turn visions into reality and deliver
+                            exceptional results.</li>
+                    </ul>
+                </div>
+                <div class="hero-joinme">
+                    <h2>Let's Build Something Amazing Together!</h2>
+                    <p>
+                        Whether you're looking to revamp your digital presence, launch a new product, or streamline your
+                        workflow, I'm here to help. Let's connect and explore how we can turn your ideas into impactful
+                        solutions.
+                    </p>
+                    <div class="nav-buttons btn1">
+                        <button id="projects-button">Projects</button>
+                        <button id="contact-button">Contact me</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+                <img src="/assets/hero-section/hero8.jpeg" alt="hero-img">
+            </div>
+
+
+        </div>
+    </section>
+
+    <div class="hnav" id="projects"></div><br>
+    <section class="project-section container">
+        <h1>My projects</h1>
+        <div class="project-space grid">
+        
+            <div class="project-card" onclick="window.open('https://sidharthadr.github.io/projects/Project%20tribute.html')"
+                style="background-image:url(./assets/proj\ \(4\).png);">Tribute</div>
+        
+            <div class="project-card" onclick="window.open('https://sidharthadr.github.io/projects/Project%20tribute_NT.html')"
+                style="background-image:url(assets/proj\ \(3\).png);">Tribute(css)</div>
+        
+            <div class="project-card" onclick="window.open('https://sidharthadr.github.io/projects/FunnyProject/index.html')"
+                style="background-image:url(./assets/proj\ \(2\).png);">Homework</div>
+        
+            <div class="project-card" onclick="window.open('https://sidharthadr.github.io/projects/pro%2011/index.html')"
+                style="background-image:url(./assets/proj\ \(1\).png);">ViceCity</div>
+        
+        </div>
+    </section>
+
+   
+    <div class="hnav" id="contact"></div><br>
+    <section class="contact-section container">
+        <h1>Contact me</h1>
+       
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+
+            <input type="hidden" name="access_key" value="10773921-9295-460c-a0fd-7767cb38f87a">
+            <input type="text" name="name" placeholder="Your Name"  class="contact-input" required>
+
+            <input type="email" name="email" placeholder="Your Email" class="contact-input" required>
+
+            <textarea name="message" placeholder="Your Message..." class="contact-input" required></textarea>
+
+            <input type="hidden" name="redirect" value="https://sidharthadr.github.io/projects/portifolio/Thank_you.html">
+
+            <div class="submit-button nav-buttons">
+                <button type="submit">Submit</button>
+            </div>
+            
+
+        </form>
+
+    </section>
+
+    <footer><h4>©️ SidxDr 2024, All rights reserved.</h4></footer>
+
+</body>
+
+</html>
