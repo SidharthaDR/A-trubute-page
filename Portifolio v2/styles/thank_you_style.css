@@ -20,7 +20,7 @@ body{
  /* align-content: center; */
  align-self: center;
  font-size: 300px;
- color: rgba(0, 0, 0, 0.583);
+ color: rgba(255, 255, 255, 0.583);
 }
 
 .container button{
