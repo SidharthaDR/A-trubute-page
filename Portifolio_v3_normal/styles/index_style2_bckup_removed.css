@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Shade&family=Limelight&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Monoton&family=Rubik+Doodle+Shadow&family=Rye&family=Sevillana&family=Yatra+One&display=swap');
+
+.yatra-one-regular {
+    font-family: "Yatra One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .rye-regular {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .rubik-doodle-shadow-regular {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .monoton-regular {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .lobster-two-regular {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lobster-two-bold {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lobster-two-regular-italic {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lobster-two-bold-italic {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .limelight-regular {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .bungee-shade-regular {
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .jersey-25-regular {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .oleo-script-regular {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --p-text-color: #1f1f1f;
+    --s-text-color: #373737;
+    --text-list: #3b3b3b;
+
+    --heading-color: ;
+    
+    --p-accent-color: #a141a1;
+    --s-accent-color: wheat;
+
+    --temp-color1: #587295;
+    --temp-color2: bisque;
+    --temp-color3: black;
+    --color-white: white;
+    --color-dark-white: rgb(226, 226, 226);
+
+
+
+
+    --font1: "Itim";
+        --font2: "Jersey 25";
+        --font3: "Oleo Script";
+        --font4: "Yatra One";
+        --font5: "Sevillana";
+        --font6: "Rye";
+        --font7: "Bangers";
+        --font8: "Bungee Shade";
+        --font9: "Limelight";
+        --font10: "Lobster Two";
+        --font11: "Monoton";
+        --font12: "Rubik Doodle Shadow";
+   --scale-1: 1.05;
+
+}
+body{
+        /* background: url(https://img.freepik.com/free-photo/purple-art-surface-liquid-flow-wallpaper_23-2148097625.jpg?t=st=1715758088~exp=1715761688~hmac=2fff65f913e51cbd01f2dad1edbe576558e3d05f2d9cc106792bde1cce569865&w=1380); */
+        /* background-color: beige; */
+            /* background: linear-gradient(270deg, #355a4dde,#d64161ab, #f3aa4ecf); */
+        /* background: url(https://static.vecteezy.com/system/resources/thumbnails/009/948/963/small_2x/aesthetic-minimal-purple-wallpaper-illustration-perfect-for-wallpaper-backdrop-postcard-background-for-your-design-vector.jpg); */
+        background: url(https://images.unsplash.com/photo-1517315003714-a071486bd9ea?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWVzdGhldGljJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D);
+        background: url(https://images.unsplash.com/photo-1517315003714-a071486bd9ea?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWVzdGhldGljJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D);
+        /* background-blend-mode: luminosity; */
+        background-attachment: fixed;
+        background-repeat:no-repeat;
+    
+      background-size:cover;
+      transition: all 0.5s ease-in-out;
+    }
+
+/* body.fade {
+        opacity: 0; 
+      } */ 
+
+p{
+    font-family: var(--font5);
+    font-size: 26px;
+    /* color: var(--s-text); */
+   
+    text-align: justify;
+    letter-spacing: 0.2px;
+    margin-bottom: 18px;
+   
+    /* Enable for */
+    /* bright */
+    /* color: var(--color-white); */
+    color: var(--color-dark-white);
+
+    /* dark */
+     /* color: var(--temp-color3); */
+}
+
+h1{
+    font-family: var(--font8);
+    text-align: center;
+    font-size: 60px;
+    color: var(--p-accent-color);
+    margin-bottom: 18px;
+}
+
+h2{
+    font-family: var(--font5);
+    font-size: 30px;
+    color: var(--p-accent-color);
+    margin-bottom: 18px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    
+}
+
+ul,li{
+    font-family: var(--font5);
+    font-size: 24px;
+    /* color: var(--text-list); */
+    text-align: justify;
+    letter-spacing: 0.7px;
+    margin-left: 20px;
+
+    /* Enable for */
+    /* bright */
+    /* color: var(--color-white); */
+    color: var(--color-dark-white);
+    
+    /* dark */
+    /* color: var(--temp-color3); */
+}
+
+
+/* utility classes */
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.grid{
+    display: grid;
+}
+
+.container{
+    max-width: 1500px;
+    margin-inline: auto;
+    /* background-color: #f5deb3d1; */
+        /* background-color: #fbf2dbc4; */
+        background: linear-gradient(270deg, #a1416c8f, #587295a3);
+
+
+    /* border: 2px solid #818181; */
+    border-radius: 30px;
+    padding: 30px;
+    /* background: url(https://img.freepik.com/free-photo/purple-art-surface-liquid-flow-wallpaper_23-2148097625.jpg?t=st=1715758088~exp=1715761688~hmac=2fff65f913e51cbd01f2dad1edbe576558e3d05f2d9cc106792bde1cce569865&w=1380);
+     */
+    backdrop-filter:blur(2px);
+}
+
+.spacer200{
+    height: 200vh;
+}
+
+.ffw{  /*FFL first few words for <p>*/
+    color: var(--p-accent-color);
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+.hnav{
+    height: 20px;
+}
+
+/* navigation section */
+
+
+.nav-bar{
+    position:sticky;
+    top: 0;
+            background: linear-gradient(270deg, #a1416c8f, #587295a3);
+
+    backdrop-filter: blur(5px);
+    /* border-bottom: 2px solid var(--p-accent-color); */
+    /* background-color: var(--temp-color3); */
+
+    z-index: 1000;
+   
+}
+
+.main-nav{
+    align-items: center;
+    padding: 1.5rem;
+    font-family: var(--font1);
+   
+}
+
+.nav-logo{
+    font-family: var(--font2);
+    font-size: 40px;
+}
+
+.nav-logo span:nth-child(1){
+    color: var(--s-accent-color);
+}
+
+.nav-logo span:nth-child(2){
+    color: var(--p-accent-color);
+}
+
+
+.nav-links{
+ gap: 12px;
+}
+
+.nav-buttons button{
+    font-family: var(--font10);
+    font-size: 22px;
+    color: #a141a1;
+    background: var(--color-white);
+    padding: 6px 15px;
+    /* border: solid 5px var(--p-accent-color); */
+    border: none;
+    /* border-radius: 20px; */
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-buttons button:hover{
+    scale: var(--scale-1);
+    background: var(--p-accent-color);
+    color: var(--color-white);
+    
+    
+    /*to add shadow and colors  */
+}
+
+.select-container select{
+    min-width: 150px;
+    height: 40px;
+    font-family: var(--font5);
+    font-size: 22px;
+    color: white;
+    background: var(--p-accent-color);
+    border-radius: 20px;
+    padding-inline: 5px;
+    border: 2px solid var(--color-white);
+}
+
+/* hero-section */
+
+.hero-section{
+    /* margin-top: 2vh; */
+    margin-top: 0;
+}
+
+.hero-content{
+    gap: 30px;
+    justify-content: center;
+ 
+    /* align-items: center; */
+}
+
+.hero-content .ffw span{
+    color: var(--p-accent-color);
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+.hero-joinme{
+    margin-top: 18px;
+}
+
+.hero-joinme .nav-buttons{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+}
+.hero-joinme .nav-buttons button{
+    border-radius: 20px;
+}
+.hero-joinme .nav-buttons #projects-button{
+    color: var(--p-accent-color);
+    border: solid 2px;
+    border-color: var(--p-accent-color);
+    background-color: var(--color-white);
+}
+
+.hero-joinme .nav-buttons #contact-button{
+    color: var(--color-white);
+    border-color: var(--p-accent-color);
+    background-color: var(--p-accent-color);
+}
+
+.hero-joinme .nav-buttons #projects-button:hover{
+    
+    border-color: var(--color-dark-white);
+    color: var(--color-dark-white);
+    background-color: var(--p-accent-color);
+}
+
+
+
+
+
+.hero-image img{
+    width: 500px;
+    border-radius: 50%;
+
+    /* new added below */
+    transition: all 0.5s ease;
+}
+
+.hero-image img:hover{
+    /* new added below */
+    width: 500px;
+    border-radius: 0;
+    scale: var(--scale-1);
+}
+
+.list ul li{
+    margin-bottom: 20px;
+}
+
+
+
+/* Project section */
+
+.project-section{
+    margin-top: 1.2rem;
+}
+
+.project-space{
+    /* background-color: #a141a1; */
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    /* new added below */
+    padding: 0 30px 30px;
+}
+
+.project-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font2);
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0);
+    width: 420px;
+    height: 300px;
+    background-size:cover;
+    background-position: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgb(54, 54, 54);
+    transition: all 0.1s ease-in;
+}
+
+.project-card:hover{
+    transform: scale(var(--scale-1));
+    cursor: pointer;
+    background-color: var(--s-text-color);
+    background-blend-mode: overlay;
+    color: var(--color-white);
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+
+}
+
+/* Contact Form */
+
+.contact-section{
+    /* background-color: linear-gradient(var(--p-accent-color) var(--temp-color1)); */
+    background: linear-gradient(270deg, #a1416c8f, #587295a3);
+    border-radius: 20px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.contact-section .contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.contact-input{
+    width: 400px;
+    height: 50px;
+    align-content: flex-start;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 30px;
+    font-family: var(--font10);
+    font-size: 22px;
+    font-weight: 800;
+    color: #a141a1;
+}
+
+.contact-form textarea{
+    resize: none;
+    padding-top: 16px;
+    border-radius: 20px;
+    min-height:200px ;
+    min-width: 400px;
+}
+
+.contact-input::placeholder{
+    font-family: var(--font10);
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #b7b7b7;
+}
+
+.contact-input:focus{
+    outline: solid 2px var(--p-accent-color);
+}
+
+
+/* .submit-button{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    font-family: var(--font10);
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: var(--p-accent-color);
+    background-color: #1f1f1f;
+    border: none;
+    transition: all ease 0.2s;
+} */
+
+/* .submit-button:hover{
+    scale: 1.05;
+} */
+
+.contact-form .nav-buttons button{
+    border-radius: 20px;
+    padding-inline: 20px;
+    letter-spacing: 2px;
+    /* color: var(--color-white);
+    background-color: var(--p-accent-color); */
+    color: var(--p-accent-color);
+    background: var(--color-white);
+    border: none;
+}
+
+.contact-form .nav-buttons button:hover{
+    scale: var(--scale-1);
+    color: var(--color-white);
+    background: var(--p-accent-color);
+    /* color: var(--p-accent-color);
+    background: var(--color-white); */
+}
+
+
+/* Footer */
+
+footer{
+    /* position: sticky; */
+    /* bottom: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: var(--temp-color3); */
+    background-color: rgba(0, 0, 0, 0.778);
+    color: var(--color-white);
+    font-family: var(--font10);
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
