@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=DotGothic16&family=Germania+One&family=Leckerli+One&family=Luckiest+Guy&family=Protest+Guerrilla&family=Silkscreen:wght@400;700&family=Ultra&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    /* fonts */
+    --font-1:"Luckiest Guy";
+    --font-2:"Silkscreen";
+    --font-3:"Ultra";
+    --font-4:"Leckerli One";
+    --font-5:"Protest Guerrilla";
+    --font-6:"Bungee Shade";
+    --font-7:"DotGothic16";
+    --font-8:"Germania One";
+    /* fonts -end */
+}
+
+
+
+/* utility classes */
+
+.container{
+    min-width: 1600px;
+    /* background: green; */
+    /* background: linear-gradient(270deg, wheat, violet); */
+    /* background: radial-gradient(wheat, violet); */
+    padding: 10px;
+   
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.spacer{
+    height: 200vh;
+}
+
+/* header */
+
+.header{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0 40px rgba(26, 26, 26, 0.897);
+}
+
+.logo{
+    font-size: 30px;
+}
+
+.logo span:nth-child(1){
+color: antiquewhite;
+font-family: var(--font-1);
+}
+
+.logo span:nth-child(2){
+color: white;
+font-family: var(--font-4);
+}
+
+.counter{
+    color: white;
+    font-size: 30px;
+}
+
+
+/* Movie grid  */
+
+
+#movieGrid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 60px;
+   
+}
+
+
+
+.movie{
+    /* display: flex;
+    gap: 10px;
+    flex-direction: column; */
+    background: wheat;
+    padding: 20px;  
+    transition: all 0.2s ease;
+}
+
+
+.movie img{
+    width: 490px;
+    height: 300px;
+}
+
+.movie h2{
+    color: rgb(0, 0, 0);
+    font-family: var(--font-8);
+    font-size: 30px;
+    text-align: center;
+}
+
+.movie:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px gray;
+}
