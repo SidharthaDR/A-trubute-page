@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body id="body" class="spacer">
+    <!-- Header -->
+    <section class="header_section">
+      <div class="header">
+        <!-- toggle counter display -->
+        <div class="toggle">
+          <button id="toggle_bg_btn">Show Background</button>
+          <button id="change_grad_btn">Toggle GradType</button>
+          <button id="color_swap_btn">Toggle colors</button>
+          <button id="random_btn">Randomize colors</button>
+          <button id="reset_state_btn">Reset All</button>
+          <button id="save_btn">Save 💖</button>
+
+        </div>
+
+        <!-- 360deg slider for Linear grad -->
+        <div class="linearType">
+          <div class="sliderContainer">
+            <input
+              type="range"
+              name="slider360"
+              id="sldr"
+              min="0"
+              max="360"
+              value="270"
+              class="slider"
+            />
+            <button id="reset_deg">Reset</button>
+            <div id="header_degree"></div>
+            <div id="slider_text">270</div>
+            <input id="slider_inp" type="number" min="0" max="360"/>
+          </div>
+          
+          <button id="toggle_revolve_btn" class="toggle">Revolve/Stop</button>
+        </div>
+
+        <!-- 2 color selectors -->
+      </div>
+    </section>
+
+    <!-- Debug button -->
+    <button id="dbug" onclick="debugCall()">Debug</button>
+
+    <!-- Counter -->
+
+    <!-- <div class="counter_section" id="full_counter">
+      <div class="container flex" id="cont">
+        <h1 id="count_display" class="flex">Randomize</h1>
+        <div class="btn_container flex">
+          <button class="btns" id="crandom_btn">Randomize</button>
+          <button class="btns" id="btn3" onclick="reset()">reset</button>
+        </div>
+
+        <div class="color_swatch flex">
+          <div class="cont1 flex">
+            <div id="c1"></div>
+            <div id="c1_text">Color1: wheat</div>
+          </div>
+
+          <div class="degree" id="degree_text">Deg: 270</div>
+
+          <div class="cont2 flex">
+            <div id="c2"></div>
+            <div id="c2_text">Color2: purple</div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <script src="script_v3.js"></script>
+  </body>
+</html>
