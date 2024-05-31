@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=DotGothic16&family=Germania+One&family=Leckerli+One&family=Luckiest+Guy&family=Protest+Guerrilla&family=Silkscreen:wght@400;700&family=Ultra&display=swap');
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    --font-10: "Sedan SC";
+    --font-9: "Teko";
+    --font-1:"Luckiest Guy";
+    --font-2:"Silkscreen";
+    --font-3:"Ultra";
+    --font-4:"Leckerli One";
+    --font-5:"Protest Guerrilla";
+    --font-6:"Bungee Shade";
+    --font-7:"DotGothic16";
+    --font-8:"Germania One";
+    zoom: 96%;
+}
+
+:root{
+    /* zoom: 0.9; */
+    zoom: 1;
+}
+
+
+
+body{
+    --color1:wheat;
+    --color2: purple;
+    /* background: url(../assets/bg4.avif); */
+    /* background: radial-gradient(rgb(255, 255, 255),rgb(230, 230, 230)); */
+    /* background: radial-gradient(var(--color1),var(--color2)); */
+    /* background: linear-gradient(270deg, var(--color1),var(--color2)); */
+    background-size: cover;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+.container{
+    --color1:wheat;
+    --color2: purple;
+    
+
+    /* background: blueviolet; */
+    background: linear-gradient(270deg, var(--color1),var(--color2) );
+    padding: 80px;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 80px;
+    gap: 40px;
+    font-family: var(--font-9);
+    color: rgba(255, 255, 255, 0.995);
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.816);
+}
+
+/* utilities */
+
+.flex{
+    display: flex;
+}
+
+.spacer{
+    height: 110vh;
+}
+
+/* header */
+
+.header_section{
+    /* height: 50px; */
+    background: rgba(0, 0, 0, 0.752);
+    padding: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1{
+    font-size: 20px;
+}
+
+.toggle{
+    display: flex;
+    gap: 30px;
+}
+
+
+.toggle button{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+}
+
+
+
+
+/* counter section */
+
+.counter_section{
+    height: 100vh;
+    display: flex;
+    /* display: none; */
+    visibility:visible;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#count_btn{
+    text-align: center;
+    
+}
+
+.container h1{
+    /* font-size: 120px; */
+    font-size: 200px;
+}
+
+.btn_container{
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.btn_container button{
+    width: 90px;
+    height: 60px;
+    font-size: 22px;
+    border: 0;
+    border-radius: 80px;
+}
+
+.cont1{
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* background: green; */
+    
+}
+
+.cont2{
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    gap: 10px;
+    /* background: yellow; */
+    
+}
+
+.color_swatch .degree{
+    width: 100px;
+    margin-inline: 20px;
+    /* background: red; */
+}
+
+
+
+.color_swatch{
+    
+    background:rgba(194, 194, 194, 0.577);
+    border-radius: 100px;
+    width: 600px;
+    height: auto;
+    padding-inline: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    color: rgb(0, 0, 0);
+    font-family: var(--font-9);
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+.color_swatch #c1{
+    width: 50px;
+    height: 50px;
+    background: wheat;
+    border-radius: 50%;
+    margin-inline: 40px;
+    
+}
+button{
+    transition: all ease 0.2s;
+}
+
+button:hover{
+    scale: 1.2;
+}
+
+.color_swatch #c2{
+    width: 50px;
+    height: 50px;
+    background: purple;
+    border-radius: 50%;
+    margin-inline: 40px;
+}
+
