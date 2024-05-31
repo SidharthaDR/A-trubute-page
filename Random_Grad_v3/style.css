@@ -214,3 +214,8 @@ button:hover{
     margin-inline: 40px;
 }
 
+
+#slider_text{
+    font-size: 18px;
+    color: white;
+}
